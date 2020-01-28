@@ -13,7 +13,7 @@ docker volume create --name=keosd-data-volume
 docker-compose up
 ```
 
-Then from the top of your new projects directory:
+Then from the top of your new project's directory:
 
 `./dev.sh wallet-create`
 
