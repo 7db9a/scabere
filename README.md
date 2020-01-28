@@ -8,7 +8,7 @@ cd docker your-eos-project/docker
 docker build -t rust-eos-dev:latest .
 docker volume create --name=nodeos-data-volume
 docker volume create --name=keosd-data-volume
-docker compose up
+docker-compose up
 ```
 It sets up [eosio-rust](https://github.com/sagan-software/eosio-rust) for contract development and [eoslime](https://github.com/LimeChain/eoslime) (nodejs) for tests. Nodeos and keos are launched in their own containers.
 
