@@ -4,7 +4,7 @@ It uses eos v1 and installs eos software binaries instead of building from sourc
 
 ```
 git clone https://github.com/7db9a/rust-eos-dev-env-starter your-eos-project
-cd docker your-eos-project/docker
+cd your-eos-project/docker
 docker build -t rust-eos-dev:latest .
 docker volume create --name=nodeos-data-volume
 docker volume create --name=keosd-data-volume
