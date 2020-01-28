@@ -101,6 +101,7 @@ run() {
     wallet-unlock
     account-create
     set-abi-code
+    install_eoslime
     run_test
 }
 
