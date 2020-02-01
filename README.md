@@ -13,7 +13,7 @@ This dev environment uses EOSIO v1 and installs EOSIO software binaries instead 
 ***Don't deploy production code using this environment. And don't hold actual tokens in a wallet made from here.***
 
 ```
-git clone https://github.com/7db9a/rust-eos-dev-env-starter scabere
+git clone https://github.com/7db9a/scabere
 cd scabere/docker
 docker build -t rust-eos-dev:latest .
 docker volume create --name=nodeos-data-volume
