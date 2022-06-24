@@ -53,3 +53,4 @@ The commands broken down individually:
 `./dev.sh test`
 
 `dev.sh` is very basic and not generalized. Feel free to modify it or make your own script, or just run the actual underlying commands.
+Update
